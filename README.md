@@ -15,25 +15,21 @@ priority: high
 precondition:
 	у нас есть неиспользованные почта и username 
 test steps:
-	1. открыть страницу https://angular.realworld.io/
-	2. нажать на кнопку "Sign up"
-	3. заполнить форму с полями: Username, Email, Password валидными данными
-	4. нажать на enter
+	1. открыть страницу https://angular.realworld.io/register
+	2. заполнить форму с полями: Username, Email, Password валидными данными
+	3. нажать на enter
 test data:
-	1. https://angular.realworld.io/
-	2. -
-	3. Username: dimetrius, Email: volk@gmail.com, Password: "qf4fo87&"
-	4. -
+	1. https://angular.realworld.io/register
+	2. Username: dimetrius, Email: volk@gmail.com, Password: "qf4fo87&"
+	3. -
 expected result:
-	1. открывается страница с статьями
-	2. появляется форма регистрации
-	3. в полях отображаются наши данные
-	4. открывается главная страница со вкладкой "Your feed"
+	1. появляется страница с формой регистрации
+	2. в полях отображаются наши данные
+	3. открывается главная страница на вкладке "Your feed"
 real result:
-	1. открывается страница с статьями
-	2. появляется форма регистрации
-	3. в полях отображаются наши данные
-	4. открывается главная страница со вкладкой "Your feed"
+	1. появляется страница с формой регистрации
+	2. в полях отображаются наши данные
+	3. открывается главная страница на вкладке "Your feed"
 status:
 	pass
 

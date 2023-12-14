@@ -1,12 +1,11 @@
 ### Used Packages
 
 #### Selenide 7.0.2
-#### Firefox 120.0.1
 #### Junit 4.13.2
 
 ### testing environment:
 #### Linux debian 12 bookworm
-#### Google chrome Version 114.0.5735.133
+#### Firefox 120.0.1
 #### date: 13.12.2023
 
 ## ID: TC_01

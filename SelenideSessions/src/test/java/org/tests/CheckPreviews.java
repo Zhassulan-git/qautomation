@@ -14,7 +14,6 @@ public class CheckPreviews extends CondutTests{
 
     @Test
     public void searchPreviews(){
-//		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver/chromedriver");
 
         open(QA_TENANT_URL);
 

@@ -9,8 +9,8 @@
 #### Google chrome Version 114.0.5735.133
 #### date: 13.12.2023
 
-#### ID: TC_01
-#### test title: Регистрация нового пользователя
+## ID: TC_01
+### test title: Регистрация нового пользователя
 #### priority: high
 #### precondition:
 	у нас есть неиспользованные почта и username 
@@ -34,8 +34,8 @@
 	pass
 
 
-#### ID: TC_02
-#### test title: создание статьи и проверка созданной статьи в "Global feed"
+## ID: TC_02
+### test title: создание статьи и проверка созданной статьи в "Global feed"
 #### priority: high
 #### precondition:
 	Мы прошли аутентификацию
